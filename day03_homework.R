@@ -81,6 +81,7 @@ chr_vec <- c("beef","chicken")
 mixed_vec <- c(lgl_vec, chr_vec)
 answer_6 <- typeof(mixed_vec)
 answer_6
+
 # 7. R includes some pre-defined vectors, like `letters`:
 letters
 
@@ -90,7 +91,5 @@ letters
 # Save your answer in an object called answer_7
 #
 # HINT: Use `seq()` inside the square brackets
-letters
-answer_7 <- letters(seq(from=1, to=26, by=2))
-answer_7
+answer_7 <-letters[seq(1,26,2)]
 
