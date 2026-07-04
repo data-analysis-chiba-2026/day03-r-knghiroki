@@ -93,3 +93,4 @@ letters
 letters
 answer_7 <- letters(seq(from=1, to=26, by=2))
 answer_7
+
